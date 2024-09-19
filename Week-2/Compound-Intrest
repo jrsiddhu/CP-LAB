@@ -2,13 +2,13 @@
 #include<math.h>
 int main () {
 float a,p,r,n,t;
-printf("Enter Principle -> ");
+printf("Enter Principle Amount-> ");
 scanf("%f",&p);
 printf("Enter Rate of Interest -> ");
 scanf("%f",&r);
 printf("Enter No. of times interest applied per year -> ");
 scanf("%f",&n);
-printf("Enter Time -> ");
+printf("Enter Time(in years) -> ");
 scanf("%f",&t);
 
 a=p*pow((1+r/n),n*t);
