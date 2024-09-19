@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main () {
+float a,s;
+printf("Enter Number ");
+scanf("%f",&a);
+s=sqrt(a);
+printf("SquareRoot of %f = %f\n",a,s);
+}
